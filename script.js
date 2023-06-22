@@ -30,7 +30,7 @@ function myFunction() {
             let generalConsumerValue = (consumerPower * consumerCountValue * consumerTimeOfWork) / 60;
 
             file.value = (generalConsumerValue / generalPower) * 100;
-            progressNumber.innerHTML = (generalConsumerValue / generalPower) * 100;
+            progressNumber.innerHTML = ((generalConsumerValue / generalPower) * 100).toFixed(2) + "%";
         }
     }
 }

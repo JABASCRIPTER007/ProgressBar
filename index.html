@@ -30,7 +30,7 @@
 
         <div class="column2">
             <!-- Generator power selection -->
-            <select onchange="myFunction()" class="sel-1" name="select" id="selectGenerator">
+            <select oninput="myFunction()" class="sel-1" name="select" id="selectGenerator">
                 <option value="" selected>Зробіть вибір</option>
                 <option value='1500' id="value1(1)">Генератор 1500 Втгод</option>
                 <option value='1000' id="value2(2)">Генератор 1000 Втгод</option>
@@ -43,7 +43,7 @@
             </div>
 
             <!-- Generator count input -->
-            <input onchange="myFunction()" id="generatorCount" type="number" min="1" max="10" step="1">
+            <input oninput="myFunction()" id="generatorCount" type="number" min="1" max="10" step="1">
 
         </div>
 
@@ -66,18 +66,18 @@
 
         <div class="column4">
             <!-- Consumer power selection -->
-            <select onchange="myFunction()" id="consumer" name="select" class="sel-1">
+            <select oninput="myFunction()" id="consumer" name="select" class="sel-1">
                 <option value="1700">Чайник 1700Вт</option>
                 <option value="5" selected>Лампочка LED, 5Вт</option>
                 <option value="200">Ноутбук, 200Вт</option>
             </select>
 
             <!-- Consumer count input -->
-            <input id="consumerCount" style="text-align: right" name="select" type="number" onchange="myFunction()" class="sel-222">
+            <input id="consumerCount" style="text-align: right" name="select" type="number" oninput="myFunction()" class="sel-222">
 
             <!-- Time of work selection -->
             <div class="sel-3">
-                <select onchange="myFunction()" id="timeOfWork" name="select" class="chas-roboti" style="width: 100%">
+                <select oninput="myFunction()" id="timeOfWork" name="select" class="chas-roboti" style="width: 100%">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="5">5</option>
