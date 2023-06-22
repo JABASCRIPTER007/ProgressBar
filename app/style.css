@@ -1,0 +1,71 @@
+.section {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 15px;
+}
+
+#genPow {
+    border: 1px solid black;
+}
+
+#generatorCount {
+    width: 27%;
+}
+
+.big-block {
+    width: 800px;
+    height: 600px;
+}
+
+.generator, .potuzhnist, .kilkist {
+    border: black;
+}
+
+.generator, .spozhivach, .spozhivach-block {
+    width: 50%;
+}
+
+.potuzhnist, .kilkist, .chas-roboti, .kilkist-block
+, .chas-roboti-block, .chas-roboti{
+    width: 25%;
+}
+
+.column1, .column2, .column3, .column4 {
+    display: flex;
+}
+
+.sel-1 {
+    width: 50%;
+}
+
+.sel-2, .sel-3 {
+    width: 25%;
+}
+
+.progress-bar {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+progress {
+    height: 50px;
+    width: 50%;
+    background-color: black;
+}
+
+#progress-number {
+    color: white;
+    position: absolute;
+    margin-top: 0.5%;
+}
+
+#lastsumm {
+    color: black;
+}
