@@ -10,6 +10,14 @@ h1 {
     font-size: 15px;
 }
 
+#asdasd {
+    border: 1px solid black;
+}
+
+#generatorCount {
+    width: 27%;
+}
+
 .big-block {
     width: 800px;
     height: 600px;
